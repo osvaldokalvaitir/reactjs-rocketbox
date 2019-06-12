@@ -1,68 +1,102 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ReactJS - RocketBox
 
-## Available Scripts
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/reactjs-rocketbox/blob/master/LICENSE)
+![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/reactjs-rocketbox.svg)
+![](https://img.shields.io/github/last-commit/osvaldokalvaitir/reactjs-rocketbox.svg?color=red)
+![](https://img.shields.io/github/languages/top/osvaldokalvaitir/reactjs-rocketbox.svg?color=yellow)
+![](https://img.shields.io/github/languages/count/osvaldokalvaitir/reactjs-rocketbox.svg?color=lightgrey)
+![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/reactjs-rocketbox.svg)
+![](https://img.shields.io/github/repo-size/osvaldokalvaitir/reactjs-rocketbox.svg?color=blueviolet)
+[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
+![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
-In the project directory, you can run:
+Aplicação RocketBox usando Create React App, Axios, React Router, Socket.io, React Icons, react-dropzone, date-fns, GitHub e Heroku consumindo os recursos da API do [Node - RocketBox](https://github.com/osvaldokalvaitir/node-rocketbox).
 
-### `npm start`
+## Índice
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Capturas de Tela](#capturas-de-tela)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+  - [Principal](#principal)
 
-### `npm test`
+  - [Box](#box)
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Desenvolvimento](#desenvolvimento)
 
-### `npm run build`
+  - [Configurações Iniciais](#configurações-iniciais)
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - [Instalação do Projeto](#instalação-do-projeto)
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+  - [Execução do Projeto](#execução-do-projeto)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Utilizados no Projeto](#utilizados-no-projeto)
 
-### `npm run eject`
+  - [Bibliotecas](#bibliotecas)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  - [APIs](#apis)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Capturas de Tela
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Principal
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![Main](/assets/main.png)
+Nesta primeira tela é possível criar um novo box.
 
-## Learn More
+### Box
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Box](/assets/box.png)
+É a tela onde estão todos os arquivos vindos da API referentes ao box criado, podendo adicionar novos arquivos, clicando e localizando ou se preferir, arrastando e soltando.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Desenvolvimento
 
-### Code Splitting
+### Configurações Iniciais
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configurações Iniciais`.
 
-### Analyzing the Bundle Size
+### Instalação do Projeto
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
 
-### Making a Progressive Web App
+### Execução do Projeto
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md) e siga `Execução de Projeto`.
 
-### Advanced Configuration
+## Utilizados no Projeto
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+### Bibliotecas
 
-### Deployment
+- [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+- [Create React App](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md)
 
-### `npm run build` fails to minify
+- [date-fns](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/date-fns.md)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- [React Icons](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-icons.md)
+
+- [react-dropzone](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-dropzone.md)
+
+- [react-router-dom](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-router-dom.md)
+
+- [socket.io-client](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/socketio-client.md)
+
+### APIs
+
+- **[Node - RocketBox](https://github.com/osvaldokalvaitir/node-rocketbox)**
+
+  - **Rotas**
+
+    - Boxes
+
+      - Adiciona novos boxes
+      - Lista todos os dados e arquivos de um box
+
+    - Arquivos
+
+      - Adiciona novos arquivos para um box
+
+### Ferramentas
+
+- [Git](https://github.com/osvaldokalvaitir/projects-settings/blob/master/version-control/git.md)
+
+- [GitHub](https://github.com/osvaldokalvaitir/projects-settings/blob/master/version-control/github.md)
+
+- [Heroku](https://github.com/osvaldokalvaitir/projects-settings/blob/master/paas/heroku.md)
