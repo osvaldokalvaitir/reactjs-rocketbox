@@ -28,8 +28,6 @@ Aplicação RocketBox usando Create React App, Axios, React Router, Socket.io, R
 
   - [Execução do Projeto para Desenvolvimento](#execução-do-projeto-para-desenvolvimento)
   
-  - [Construção e Execução do Projeto para Produção](#construção-e-execução-do-projeto-para-produção)
-
 - [Utilizados no Projeto](#utilizados-no-projeto)
 
   - [Bibliotecas](#bibliotecas)
@@ -63,10 +61,6 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 ### Execução do Projeto para Desenvolvimento
 
 Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md) e siga `Execução de Projeto para Desenvolvimento`.
-
-### Construção e Execução do Projeto para Produção
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md) e siga `Construção e Execução de Projeto para Produção`.
 
 ## Utilizados no Projeto
 
