@@ -40,12 +40,12 @@ Aplicação RocketBox usando Create React App, Axios, React Router, Socket.io, R
 
 ### Principal
 
-![Main](/assets/main.png)
+![Main](/.github/assets/main.png)
 Nesta primeira tela é possível criar um novo box.
 
 ### Box
 
-![Box](/assets/box.png)
+![Box](/.github/assets/box.png)
 É a tela onde estão todos os arquivos vindos da API referentes ao box criado, podendo adicionar novos arquivos, clicando e localizando ou se preferir, arrastando e soltando.
 
 ## Desenvolvimento
