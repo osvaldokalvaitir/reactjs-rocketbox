@@ -1,104 +1,65 @@
-# ReactJS - RocketBox
+<h1 align="center">
+    <img src="/.github/assets/logo.svg"
+    width="400px"
+    alt="Logo" />
+</h1>
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/reactjs-rocketbox/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/reactjs-rocketbox.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/reactjs-rocketbox.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/reactjs-rocketbox.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/reactjs-rocketbox.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/reactjs-rocketbox.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/reactjs-rocketbox.svg?color=blueviolet)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+<h3 align="center">
+  ReactJS - RocketBox
+</h3>
 
-Aplicação RocketBox usando Create React App, Axios, React Router, Socket.io, React Icons, react-dropzone, date-fns, GitHub e Heroku consumindo os recursos da API do [Node.js - RocketBox](https://github.com/osvaldokalvaitir/nodejs-rocketbox).
+<p align="center">
+  :package: RocketBox Application using Create React App, Axios, React Router, Socket.io, React Icons, react-dropzone, date-fns, GitHub, Heroku and consuming the features of the Node.js - RocketBox API
+</p>
 
-## Índice
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/reactjs-rocketbox.svg?color=00A83A">
 
-- [Capturas de Tela](#capturas-de-tela)
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/reactjs-rocketbox.svg?color=00A83A">
 
-  - [Principal](#principal)
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
 
-  - [Box](#box)
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
-- [Desenvolvimento](#desenvolvimento)
+<p align="center">
+  <a href="#computer-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+</p>
 
-  - [Configuração do Ambiente](#configuração-do-ambiente)
+## :computer: Demo
 
-  - [Instalação do Projeto](#instalação-do-projeto)
+![Demo](/.github/assets/demo.gif)
 
-  - [Execução do Projeto](#execução-do-projeto)
-  
-- [Utilizados no Projeto](#utilizados-no-projeto)
+## :wrench: Install and run
 
-  - [Bibliotecas](#bibliotecas)
+_ps: Before running the app, start the [Node.js - RocketBox](https://github.com/osvaldokalvaitir/nodejs-rocketbox) backend._
 
-  - [APIs](#apis)
+Open terminal:
 
-  - [Ferramentas](#ferramentas)
+```sh
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/reactjs-rocketbox
 
-## Capturas de Tela
+# Entry in folder
+cd reactjs-rocketbox
 
-### Principal
+# Install deps with npm or yarn
+npm install | yarn
 
-![Main](/.github/assets/main.png)
-Nesta primeira tela é possível criar um novo box.
+# Launch the app with npm or yarn
+npm start | yarn start
+```
 
-### Box
+Click to learn more: [Git](https://github.com/osvaldokalvaitir/awesome/blob/main/src/version-controls/git/git.md), [GitHub](https://github.com/osvaldokalvaitir/awesome/blob/main/src/version-controls/git/tools/github.md), [Heroku](https://github.com/osvaldokalvaitir/awesome/blob/main/src/paas/heroku.md) - Follow the steps `Projeto ReactJS com Create React App > Deploy com GitHub`
 
-![Box](/.github/assets/box.png)
-É a tela onde estão todos os arquivos vindos da API referentes ao box criado, podendo adicionar novos arquivos, clicando e localizando ou se preferir, arrastando e soltando.
+## :memo: License
 
-## Desenvolvimento
+This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
 
-### Configuração do Ambiente
+---
 
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
-
-### Instalação do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
-
-### Execução do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md) e siga `Execução de Projeto para Desenvolvimento` ou `Construção e Execução de Projeto para Produção`.
-
-## Utilizados no Projeto
-
-### Bibliotecas
-
-- [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
-
-- [Create React App](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md)
-
-- [date-fns](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/date-fns.md)
-
-- [React Icons](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-icons.md)
-
-- [react-dropzone](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-dropzone.md)
-
-- [react-router-dom](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-router-dom.md)
-
-- [socket.io-client](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/socketio-client.md)
-
-### APIs
-
-- **[Node.js - RocketBox](https://github.com/osvaldokalvaitir/nodejs-rocketbox)**
-
-  - **Rotas**
-
-    - Boxes
-
-      - Adiciona novos boxes
-      - Busca todos os dados de um box
-
-    - Arquivos
-
-      - Adiciona novos arquivos para um box
-
-### Ferramentas
-
-- [Git](https://github.com/osvaldokalvaitir/projects-settings/blob/master/version-control/git.md)
-
-- [GitHub](https://github.com/osvaldokalvaitir/projects-settings/blob/master/version-control/github.md)
-
-- [Heroku](https://github.com/osvaldokalvaitir/projects-settings/blob/master/paas/heroku.md) - Siga `Projeto ReactJS com Create React App > Deploy com GitHub`
+<p align="center">
+Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+</p>
