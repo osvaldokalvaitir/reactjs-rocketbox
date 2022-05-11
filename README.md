@@ -9,7 +9,7 @@
 </h3>
 
 <p align="center">
-  :package: RocketBox Application using Create React App, Axios, React Router, Socket.io, React Icons, react-dropzone, date-fns, GitHub, Heroku and consuming the features of the Node.js - RocketBox API
+  :package: RocketBox Application using Create React App, Axios, React Router, Socket.io, React Icons, react-dropzone, date-fns, Git, GitHub, Heroku and consuming the features of the Node.js - RocketBox API
 </p>
 
 <p align="center">
