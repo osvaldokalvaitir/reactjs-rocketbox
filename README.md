@@ -49,7 +49,7 @@ cd reactjs-rocketbox
 npm install | yarn
 
 # Launch the app with npm or yarn
-npm start | yarn start
+npm run start | yarn start
 ```
 
 Click to learn more about the tools used: [Git](https://github.com/osvaldokalvaitir/awesome/blob/main/src/version-controls/git/git.md), [GitHub](https://github.com/osvaldokalvaitir/awesome/blob/main/src/version-controls/git/tools/github.md), [Heroku](https://github.com/osvaldokalvaitir/awesome/blob/main/src/paas/heroku.md) (Follow the steps `Projeto ReactJS com Create React App > Deploy com GitHub`).
